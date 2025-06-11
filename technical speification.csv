@@ -1,0 +1,11 @@
+﻿,Specification,Details
+0,Framework,Custom Neural Network Implementation
+1,Architecture Base,Enhanced AlexNet with Multi-Scale Features
+2,Optimization,Advanced Gradient Descent with Adaptive Learning
+3,Regularization,Batch Normalization + Dropout + L2 Regularization
+4,Data Augmentation,"Rotation, Scaling, Color Jittering, Cropping"
+5,Training Dataset,"500,000+ Agricultural Images"
+6,Validation Protocol,5-Fold Cross Validation
+7,Hardware Requirements,GPU Recommended (CUDA Compatible)
+8,Memory Usage,2GB RAM minimum for inference
+9,Operating System,"Cross-platform (Windows, Linux, macOS)"

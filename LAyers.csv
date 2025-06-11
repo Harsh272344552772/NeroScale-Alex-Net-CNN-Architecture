@@ -1,0 +1,15 @@
+﻿Layer,,Type,Parameters
+1,0,Conv2D,"Filters: 96, Kernel: (11, 11), Strides: 4"
+2,1,BatchNorm,Activation: ReLU
+3,2,MaxPool2D,"Pool Size: (3, 3), Strides: 2"
+4,3,Conv2D,"Filters: 256, Kernel: (5, 5)"
+5,4,BatchNorm,Activation: ReLU
+6,5,MaxPool2D,"Pool Size: (3, 3), Strides: 2"
+7,6,Conv2D,"Filters: 384, Kernel: (3, 3)"
+8,7,Conv2D,"Filters: 384, Kernel: (3, 3)"
+9,8,Conv2D,"Filters: 256, Kernel: (3, 3)"
+10,9,MaxPool2D,"Pool Size: (3, 3), Strides: 2"
+11,10,Dense,"Units: 4096, Dropout: 0.5"
+12,11,Dense,"Units: 4096, Dropout: 0.5"
+13,12,NeuroScale_Enhancement,"Units: 2048, Dropout: 0.3"
+14,13,Output,Units: 47
